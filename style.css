@@ -1,14 +1,20 @@
 /*shared font*/
 body{
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+/*header related style*/
+.header{
+    background-color: #FFF8F3;
 }
 /*nav releted style*/
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
-.oranges {
+.for-r {
     color: #FD6E0A;
 }
 .mary{
@@ -40,4 +46,20 @@ nav a {
     font-weight: 700;
     color: white;
     padding: 15px 35px;
+}
+
+
+.banner{
+    padding: 30x 30px 30px 50px;
+    display: flex;
+    align-items: center;
+}
+.profile-pic{
+    width: 500px;
+}
+.banner-greeting{
+
+}
+.person-name{
+
 }
