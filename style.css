@@ -16,7 +16,6 @@ nav {
     justify-content: space-between;
     align-items: center;
     margin: 0px 50px 0px 200px;
-    padding
 }
 .for-r {
     color: #FD6E0A;
@@ -50,6 +49,10 @@ nav a {
     font-weight: 700;
     color: white;
     padding: 15px 35px;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    color:blue;
 }
 
 
@@ -83,12 +86,16 @@ nav a {
     padding: 20px;
     margin: 5px;
 }
-/*about me section start*/
+/*main section here*/
+
 main{
     max-width: 1140px;
     margin: 0 auto;
-
 }
+main section{
+    margin-top: 130px;
+}
+/*Section-1 About me style*/
 .section-about{
     background-color: #FFF8F3;
   
@@ -111,14 +118,65 @@ main{
 .about-info-container{
     display: flex;
     justify-content: space-around;
+    padding-bottom: 50px;
 
 }
 .about-info{
     text-align: center;
 }
+/*section-2 what I do style*/
 #pera-section{
     padding: 30px 150px;
 }
 .skill-container{
     display: flex;
+    gap: 24px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    margin-bottom: 0px;
+
+
 }
+.skill{
+        padding:30px;
+        border-radius: 5px;
+        background: #FFF;
+        box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-decription{
+    color:blue;
+}
+/*Section-3 My resume style*/
+.resume-column-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+.resume-container{
+            display: flex;
+            gap: 50px;
+    
+}
+.resume-container hr{
+    margin: 30px;
+}
+.resume-item-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.resume-item-institute{
+    color: #757575;
+    margin-top: 0px;
+    margin-bottom: 20px;
+} 
+.resume-item-description{
+    color: #757575;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
+}
+
