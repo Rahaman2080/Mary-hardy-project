@@ -179,4 +179,29 @@ main section{
     text-align: center;
     margin-top: 50px;
 }
+/*footer style*/
+footer{
+    display: flex;
+    background: #FFF8F3;
+    padding: 80px 200px;
+    margin-top: 100px;
+    gap: 100px;
+
+}
+.footer-column{
+    width: 50%;
+}
+.social-link a{
+    margin-right: 35px;
+}
+.contact input[type="text"], .contact input[type="email"],
+textarea{
+    display: block;
+    margin-bottom: 30px;
+    padding: 18px 35px;
+    color: #757575;
+    background: #FFF;
+    border: 0;
+    width: 100%;
+}
 
